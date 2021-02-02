@@ -3,6 +3,7 @@
   <head>
     <title>Fusion Restaurant</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
   <body bgcolor=black >
     <div class="topnav">
@@ -94,14 +95,22 @@
             nisi ea velit quis.
           </p>
         </div>
-        <div class="form1"><center>
+        <br>
+        <div class="mx-auto form1" style="width: 18rem;">
             <form>
-                <input type="text" placeholder="Name">
-                <input type = "tel" placeholder="Mobile Number">
-                <input type="email" placeholder="Email Address">
-                <input type="submit">
+              <br>
+              <label class="h5">Name</label>
+                <input type="text" class="form-control form-control-lg">
+              <br>
+              <label class="h5">Mobile Number</label>
+                <input type = "tel" class="form-control form-control-lg">
+              <br>
+              <label class="h5">Email</label>
+                <input type="email" class="form-control form-control-lg">
+              <br>
+              <button type="button" class="btn btn-primary" inputmode="submit">Submit</button>
             </form>
-        </div></center>
+          </div>
       </div>
     </div>
   </body>
